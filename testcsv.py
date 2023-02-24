@@ -17,4 +17,4 @@ with open('my-csv-file.csv', newline='') as csvfile:
 
 # Close the Kafka producer
 producer.close()
-
+# bin/kafka-console-consumer.sh --topic my-topic --from-beginning --bootstrap-server localhost:9092
